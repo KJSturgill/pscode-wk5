@@ -1,0 +1,77 @@
+// Honestly I'm terrible at psuedo code, not sure exactly how detailed to get and usually ended up writing the code out so going to try ta few different ways for psuedocode
+
+
+// Exercise 1: Calculate the Sum of Two Numbers
+
+calculate the sum of two numbers in this order:
+first number then the plus symbol (+) then the second number
+
+OR
+
+sum = n1 + n2
+
+
+
+// Exercise 2: Check if a Number is Even or Odd
+
+check if a number is even or odd by seeing if it is divisible by 2. 
+
+however the number is decided give it a variable, ill just use number. then use an if else statement to check, if dividing the number by 2 (using the forward slash / ) is equal (2 equal sign == ) to zero. if it is the number is even, every other possiblitiy is odd so the else says its odd
+
+OR
+
+input num
+if (num / 2 == 0)
+num is even
+else()
+num is false
+
+
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+ask for 5 numbers. for average add (+) all 5 together, then divide (/) the total by 5. to find the minimum, check if the first is smaller thatn the second, then check the 3rd against the smaller of those 2, then the 4th smaller than that pair, then if the 5th smaller than that pair. do the opposite of the minimum to get teh max. write the results to the console labeling each.
+
+OR
+
+write "input 5 numbers"
+read n1,n2,n3,n4,n5
+
+set average to ((n1+n2+n3+n4+n5)/5
+
+if (n1<n2)
+set minimum to n1
+else ()
+set minimum to n2
+if (n3<minimum)
+set minimum to n3
+if (n4<minimum)
+set minimum to n4
+if (n5<minimum)
+set minimum to n5
+
+if (n1>n2)
+set maximum to n1
+else ()
+set maximum to n2
+if (n3>maximum)
+set maximum to n3
+if (n4>maximum)
+set maximum to n4
+if (n5>maximum)
+set maximum to n5
+
+write "the average is"
+write average
+write "the smallest number is"
+write minimum
+write "the largest number is"
+write maximum
+
+-- END --
